@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Sriracha&display=swap');
+
+:root{
+    --base-color:#A866E2;
+    --spacing:10px;
+    --blur:10px;
+}
+
+body{
+    text-align:center;
+    background: rgba(124, 77, 79, 0.714)
+}
+
+.controls{
+    margin:20px 0
+}
+
+
+img{
+    width: 30%;
+    height:30%;
+    padding: var(--spacing);
+    background:var(--base-color);
+    filter: blur(var(--blur));
+}
+
+h1{
+    font-family: 'Sriracha', cursive;
+}
+
+.h1{
+    color:var(--base-color);
+}
+
+.input-label{
+    color:#000;
+    margin:10px 0;
+    font-weight:bold;
+    display:block;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
